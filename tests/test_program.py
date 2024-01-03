@@ -1,7 +1,8 @@
 import os
 import sys
-
-print(sys.path)
+import pytest
+import main.program
 
 def test_default():
+    print(sys.path)
     assert True
