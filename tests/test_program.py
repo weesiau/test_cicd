@@ -8,4 +8,4 @@ def test_default():
     assert result == 4
 
 def test_1():
-    assert True
+    assert True == False
